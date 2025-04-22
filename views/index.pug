@@ -1,0 +1,12 @@
+html 
+    head 
+        title = title 
+    body 
+        h1= message 
+        form()
+            p.
+                Name of Movie 
+            input(type='text')
+        ul 
+            - for(const movie of movies)
+                li= movie
